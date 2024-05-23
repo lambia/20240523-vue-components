@@ -30,7 +30,15 @@ export default {
   <main>
     <h1>La Molisana by {{ autore }}</h1>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-    <ProductList />
+    <div class="wrapper">
+      <ProductList />
+    </div>
   </main>
       
 </template>
+
+<style scoped>
+.wrapper {
+  padding: 1rem 0;
+}
+</style>

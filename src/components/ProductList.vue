@@ -19,5 +19,3 @@ export default {
     <li v-for="tipoDiPasta in products">{{ tipoDiPasta }}</li>
   </ul>
 </template>
-
-<style></style>
