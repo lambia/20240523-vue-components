@@ -1,11 +1,13 @@
 <script>
 import AppHeader from './components/AppHeader.vue';
 import ProductList from './components/ProductList.vue';
+import AppFooter from './components/AppFooter.vue';
 
 export default {
   components: {
     AppHeader,
     ProductList,
+    AppFooter
   },
   data() {
     return {
@@ -34,6 +36,8 @@ export default {
       <ProductList />
     </div>
   </main>
+
+  <AppFooter />
       
 </template>
 
