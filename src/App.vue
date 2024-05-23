@@ -1,9 +1,11 @@
 <script>
 import AppHeader from './components/AppHeader.vue';
+import ProductList from './components/ProductList.vue';
 
 export default {
   components: {
-    AppHeader
+    AppHeader,
+    ProductList,
   },
   data() {
     return {
@@ -25,7 +27,10 @@ export default {
   <AppHeader />
   <!-- <a href="google.it">Link non stilizzato in header</a> -->
 
-  <h1>La Molisana by {{ autore }}</h1>
-  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-    
+  <main>
+    <h1>La Molisana by {{ autore }}</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+    <ProductList />
+  </main>
+      
 </template>
