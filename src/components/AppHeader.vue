@@ -29,6 +29,7 @@ export default {
 
 <template>
     <header>
+        <img class="logo" src="/vite.svg" />
         <a v-for="link in links" :href="link.url">{{ link.text }}</a>
     </header>
 </template>
@@ -43,5 +44,9 @@ a {
     color: aquamarine;
     text-decoration: none;
     margin: 0 2rem;
+}
+
+img.logo {
+    height: 1rem;
 }
 </style>
