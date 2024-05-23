@@ -14,6 +14,7 @@ export default {
 </script>
 
 <template>
+  <h2>I nostri prodotti</h2>
   <ul>
     <li v-for="tipoDiPasta in products">{{ tipoDiPasta }}</li>
   </ul>

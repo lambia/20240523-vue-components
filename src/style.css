@@ -8,5 +8,8 @@ body {
   font-family: sans-serif;
   background: #222;
   color: white;
+}
+
+main {
   padding: 1rem;
 }
