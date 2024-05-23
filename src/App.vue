@@ -1,5 +1,10 @@
 <script>
+import AppHeader from './components/AppHeader.vue';
+
 export default {
+  components: {
+    AppHeader
+  },
   data() {
     return {
       autore: "Luca Lambiase"
@@ -17,7 +22,10 @@ export default {
 </script>
 
 <template>
-    <h1>La Molisana by {{ autore }}</h1>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum quisquam, consequatur debitis ipsam fuga molestiae
-      deserunt expedita odio a labore et minima? Maxime voluptatum sint sed aperiam, voluptate animi fuga!</p>
+  <AppHeader />
+  <!-- <a href="google.it">Link non stilizzato in header</a> -->
+
+  <h1>La Molisana by {{ autore }}</h1>
+  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+    
 </template>
